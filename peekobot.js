@@ -38,6 +38,9 @@ const bot = function () {
                 button.innerHTML = option.text;
                 if (option.url) {
                     button.href = option.url;
+                    if (option.target) {
+                        button.target = option.target;
+                    }
                 } else {
                     button.dataset.next = option.next;
                 }

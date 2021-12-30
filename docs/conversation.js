@@ -87,7 +87,8 @@ const chat = {
         options: [
             {
                 text: "Go to GitHub",
-                url: "https://github.com/peekobot/peekobot"
+                url: "https://github.com/peekobot/peekobot",
+                target: "_blank"
             }
         ]
     }
